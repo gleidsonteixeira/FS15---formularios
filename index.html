@@ -9,12 +9,34 @@
 </head>
 <body>
     <form action="">
+        <h2>Cadastro de aluno</h2>
         <label for="nome">Nome</label>
         <input type="text" id="nome" placeholder="Digite seu nome" />
+
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="Digite seu email" />
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+
+        <label for="masculino" class="meia-label">
+            <input type="radio" name="sexo" id="masculino"> Masculino
+        </label>
+
+        <label for="feminino" class="meia-label">
+            <input type="radio" name="sexo" id="feminino"> Feminino
+        </label>
+
+        <label for="ensino-medio">
+            <input type="checkbox" id="ensino-medio"> Ensino Médio
+        </label>
+
+        <label for="graduacao">
+            <input type="checkbox" id="graduacao"> Gradução
+        </label>
+
+        <label for="ensino-superior">
+            <input type="checkbox" id="ensino-superior"> Ensino Superior
+        </label>
+
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
